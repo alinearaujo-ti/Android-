@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Meu primeiro projeto</string>
+
+    <string-array name="versoes">Versão
+        <item>Oreo</item>
+        <item >Loliipop</item>
+        <item>Chiclete</item>
+        <item>Brigadeiro</item>
+        <item>Trufa</item>
+    </string-array>
+
+</resources>
