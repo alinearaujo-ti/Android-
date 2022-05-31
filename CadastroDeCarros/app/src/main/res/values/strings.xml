@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">CadastroDeCarros</string>
+    <string name="cadastro_de_carros">Cadastro de Carros</string>
+    <string name="adicionar">Adicionar</string>
+    <string name="id_do_carro">ID do carro</string>
+    <string name="editar">Editar</string>
+    <string name="voltar">Voltar</string>
+    <string name="id">ID:</string>
+    <string name="salvar">Salvar</string>
+    <string name="modelo">Modelo</string>
+    <string name="marca">Marca</string>
+</resources>

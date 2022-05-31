@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/cadastro_de_carros"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ListView
+        android:id="@+id/carsListView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditar">
+
+    </ListView>
+
+    <EditText
+        android:id="@+id/textViewIDCarro"
+        android:layout_width="112dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="2dp"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/id_do_carro"
+        android:inputType="number"
+        android:textColorHint="#757575"
+        app:layout_constraintEnd_toStartOf="@+id/btnEditar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="123dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#A23E48"
+        android:text="@string/adicionar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:backgroundTint="#A23E48"
+        android:text="@string/editar"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toStartOf="@+id/btnAdicionar"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
